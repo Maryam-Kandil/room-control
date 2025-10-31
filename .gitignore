@@ -1,0 +1,56 @@
+# ===============================
+# 🔧 Arduino + Proteus .gitignore
+# ===============================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary or backup files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*~
+*.old
+
+# Proteus temporary / autosave / backup files
+*.pdsbak
+*.pdsprj-bak
+*.pdsprj~
+*.pwi~
+*.dsn~
+*.log
+*.sdf
+*.err
+*.suo
+*.ilk
+*.obj
+*.idb
+*.pch
+
+# Build and cache directories
+build/
+cache/
+temp/
+out/
+dist/
+
+# IDE and environment files
+.vscode/
+.idea/
+.arduinoIDE/
+.arduino-build/
+*.code-workspace
+
+# Simulation intermediate data
+*.idx
+*.bak~
+*.bkp
+*.autosave
+
+# Node, Python, or other system folders (if used)
+node_modules/
+__pycache__/
